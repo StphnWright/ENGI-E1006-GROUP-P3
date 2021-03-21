@@ -46,14 +46,16 @@ In the game Hangman, the computer selects a random word that the player must gue
 
 Write a Python program that plays Hangman:
 
-To guess the word, your program should read in the file dictionary.txtPreview the document and store the words in a list (we will discuss how to read files in the week of Feb 22). Then it should randomly select one word from the list.
+To guess the word, your program should read in the file **dictionary.txt** the document and store the words in a list (we will discuss how to read files in the week of Feb 22). Then it should randomly select one word from the list.
 
 In the main game loop, the player should make repeated guesses for letters. If the letter appears in the word, the program should print out the word with the letters uncovered. For example, if the word is college, and the user guesses “e” as the first letter, the output should be
 
     _ _ _ _ e _ e 
-    If the player then guesses “l” in the next turn, the output should be
+ 
+If the player then guesses “l” in the next turn, the output should be
 
     _ _ l l e _ e 
-    Think about how can you store the letters that have already been guessed? How do you display the word with these letters uncovered?
+
+Think about how can you store the letters that have already been guessed? How do you display the word with these letters uncovered?
 
 Save your program in a file problem4.py. 
